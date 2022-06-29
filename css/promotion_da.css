@@ -1,0 +1,154 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align:baseline; /*baseline 에서 바꿈*/
+}
+
+
+.event-clearanc .event-top {
+  padding-bottom: 118.4%;
+}
+
+.event-clearanc .event-top:after {
+  display: none;
+}
+
+.event-clearanc .event-cont {
+  position: relative;
+  margin-bottom: 24px;
+  padding: 32px 0 52px;
+}
+
+.event-clearanc .event-cont:after {
+  display: block;
+  position: absolute;
+  left: 24px;
+  right: 24px;
+  bottom: 0;
+  width: auto;
+  height: 1px;
+  background: rgba(0, 0, 0, 0.2);
+  content: "";
+}
+
+.event-clearanc .event-cont__title strong {
+  margin: 16px 0;
+  font-size: 30px;
+  line-height: 39px;
+  letter-spacing: -.5px;
+}
+
+.event-clearanc .event-cont__title span {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.event-clearanc .event-count {
+  padding: 32px 0;
+  text-align: center;
+  background: #f6f6f6;
+}
+
+.event-clearanc .event-count .countdown .countdown-subtitle {
+  margin-bottom: 12px;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000;
+}
+
+.event-clearanc .event-count .countdown .count-down > div {
+  display: inline-block;
+  font-weight: 600;
+  font-size: 30px;
+  letter-spacing: -.5px;
+  vertical-align: middle;
+}
+
+.event-clearanc .event-count .countdown .count-down > div.count-down-divide {
+  margin: 0 8px;
+  font-weight: 300;
+  font-size: 15px;
+}
+
+.event-clearanc .event-count .countdown .count-down > div.count-second {
+  color: #ee5126;
+}
+
+.event-clearanc .event-bottom .go_festival {
+  display: block;
+  position: relative;
+  margin-top: 24px;
+  background: #000;
+  padding: 15px 20px;
+  text-decoration: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.event-clearanc .event-bottom .go_festival:after {
+  display: block;
+  position: absolute;
+  right: 20px;
+  top: 12px;
+  width: 26px;
+  height: 30px;
+  background: url("../img/event_arrow_white.png") no-repeat;
+  background-size: 26px 30px;
+  content: "";
+}
+
+.event-clearanc .event-bottom .go_festival strong, .event-clearanc .event-bottom .go_festival span {
+  display: block;
+  color: #fff;
+  letter-spacing: 0;
+}
+
+.event-clearanc .event-bottom .go_festival strong {
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 27px;
+}
+
+.event-clearanc .event-bottom .go_festival span {
+  margin-top: 2px;
+  font-weight: 200;
+  font-size: 14px;
+  line-height: 19px;
+}
+
+.sr-only {
+  position: absolute;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  margin: -1px;
+  width: 1px;
+  height: 1px;
+  font-size: 6px;
+  line-height: 1;
+  white-space: nowrap;
+}
+
+@media screen and (min-width: 1540px) {
+  .event-wrap {
+    max-width: 750px;
+  }
+  .event-wrap .event-top {
+    width: 750px;
+  }
+  .event-wrap .event-top > img {
+    display: block;
+  }
+}
